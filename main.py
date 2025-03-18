@@ -2,10 +2,10 @@
 # the open-source pygame library
 # throughout this file
 import pygame
-from constants import * 
-from player import *
-from asteroid import *
-from asteroidfield import *
+from constants import *
+from player import Player
+from asteroid import Asteroid
+from asteroidfield import AsteroidField
 
 def main():
     print("Starting Asteroids!")
