@@ -44,7 +44,7 @@ def main():
             for bullet in bullets:
                 if rock.collide(bullet):
                     bullet.kill()
-                    rock.kill()
+                    rock.split()
         for item in drawable:
             item.draw(screen)
         pygame.display.flip()
